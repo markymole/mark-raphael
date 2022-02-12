@@ -1,0 +1,173 @@
+.quote{
+    margin: auto;
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    background-color: #424242;
+    box-shadow: 0 0px 8px 0 rgba(0,0,0,0.2);
+}
+.text-center{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.blockquote-footer{
+    font-size: 0.8em;
+}
+.headings{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 70px;
+}
+.headings p {
+    color: #FFB740;
+    font-weight: 300;
+    font-size: 1.4em;
+
+}
+.headings h1{
+    color: white;
+    font-size: 2.8em;
+}
+.portfolio{
+    background-color: #313131;
+    padding-bottom: 200px;
+}
+.line{
+    display: inline-block;
+    width: 390px;
+    height: 30px;
+    border-top: 2px solid #FFB740;
+}
+.sub-text{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+.cards{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.headings2{
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 40px;
+}
+
+.details{
+    font-weight: 300;
+    color: #FFB740;
+}
+.otherdets{
+    font-weight: 300;
+}
+.flip-card-back a{
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
+}
+.flip-card {
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  border-radius: 2px;
+  position: relative;
+}
+.visit{
+    position: absolute;
+    bottom: 2%;
+    right: 10%;
+}
+.visit a{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.visit a:hover{
+    color: #FFB740;
+    transition: 0.4s;
+    
+}
+.visit svg{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.line2{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border-top: 2px solid #FFB740;
+    
+}
+#card1{
+    width: 350px;
+    height: 340px;
+}
+#card2{
+    width: 350px;
+    height: 340px;
+    margin-top: 20px;
+}
+#card3{
+    width: 700px;
+    height: 700px;
+}
+#card4{
+    width: 350;
+    height: 700px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+hr{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flip-card-front {
+    color: black;
+}
+.flip-card-back .headings2{
+    width: 100%;
+}
+.flip-card-back {
+    background: radial-gradient(#5B5B5B, #313131);
+    
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.images{
+    object-fit: cover;
+    object-position: center;
+    filter: grayscale(50%);
+}

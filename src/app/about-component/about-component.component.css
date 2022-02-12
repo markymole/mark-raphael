@@ -1,0 +1,131 @@
+.text-center{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.quote{
+    margin: auto;
+    font-size: 1.3em;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    background-color: #424242;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+.blockquote-footer{
+    font-size: 0.8em;
+}
+.headings{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 70px;
+}
+.headings p {
+    color: #FFB740;
+    font-weight: 300;
+    font-size: 1.4em;
+
+}
+.headings h1{
+    color: white;
+    font-size: 2.8em;
+}
+.line{
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    border-top: 2px solid #FFB740;
+}
+.line2{
+    display: inline-block;
+    width: 290px;
+    height: 30px;
+    border-top: 2px solid #FFB740;
+}
+.line3{
+    display: inline-block;
+    width: 135px;
+    height: 30px;
+    border-top: 2px solid #FFB740;
+}
+.bio{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bio h2{
+    color: white;
+}
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #313131;
+    padding-bottom: 70px;
+}
+.story{
+    width: 40%;
+    margin-left: 200px;
+}
+.skills{
+    width: 30%;
+}
+.card{
+    background: radial-gradient(#5B5B5B, #424242);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 270px;
+}
+.head{
+    margin-top: 40px;
+    color: #FFB740;
+}
+svg{
+    margin-top: 15px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cards{
+    margin-bottom: 35px;
+    display: flex;
+}
+#card2{
+    margin-left: 35px;
+}
+.story{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+.download{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#FFB740;
+    border: solid;
+    border-width: 1.8px;
+    border-color: #FFB740;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+}
+.download:hover{
+    background-color: #FFB740;
+    color: #313131;
+    transition: 0.3s;
+}
+#cv{
+    margin-top: 50px;
+}

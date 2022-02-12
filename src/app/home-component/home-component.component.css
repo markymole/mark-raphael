@@ -1,0 +1,169 @@
+.main{
+    display: flex;
+    position: relative;
+    z-index: 8;
+    margin-left: 250px;
+    padding-top: 50px;
+    
+}
+
+.home{
+    margin-top: 100px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.offset-bg{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color:#313131;
+    opacity: 40%;
+    width: 88%;
+    height: 400px;
+    top: 22%;
+    box-shadow: 4px 8px 10px 0 rgba(0,0,0,0.5);
+}
+.offset-border{
+    position: absolute;
+    top: 8%;
+    margin-left: 240px;
+    z-index: 3;
+    width: 520px;
+    height: 520px;
+    border: solid;
+    border-color: #FFB740;
+    border-radius: 50%;
+    border-width: 4px;
+}
+.profile{
+    position:relative;
+    z-index: 6;
+    
+}
+.profiles img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+.profiles img.top:hover {
+    opacity:0;
+}
+.bottom, .top{
+    border-radius: 50%;
+    width: 500px;
+    background-color: #D6D2C4;
+    border-style: solid;
+    border-color: white;
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-width: 3px;
+}
+.profiles:hover{
+    transition: 0.3s;
+
+}
+.profile-detail{
+    margin-top: 80px;
+    margin-left: 600px;
+    
+}
+.profile-detail h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.8em;
+    color: white;
+}
+.profile-detail b{
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #FFFBDF;
+}
+.details{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    color: white;
+}
+.lenks{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.my-works{
+    margin-left: 20px;
+    display: block;
+    margin-top: 20px;
+    display: inline-block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.my-works a{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 1.2em;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 0.15em;
+}
+
+.my-works a:hover{
+    background-color: #FFB740;
+    color: #313131;
+    border-color: #FFB740;
+    
+}
+.my-works:hover, .my-works:focus, .my-works:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.know-me-more a{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 1.2em;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 0.15em;
+}
+.know-me-more{
+    display: block;
+    margin-top: 20px;
+    display: inline-block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.know-me-more a:hover{
+    background-color: #FFB740;
+    color: #313131;
+    border-color: #FFB740;
+    
+}
+.know-me-more:hover, .know-me-more:focus, .know-me-more:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.line{
+    display: inline-block;
+    width: 15%;
+    height: 30px;
+    border-top: 2px solid #FFB740;
+}
